@@ -1,0 +1,83 @@
+$color : rgba(10, 255, 132, 0.555);
+$renk : #ffff;
+$linear : hsl(53, 29%, 44%);
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/hava-durumu-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .header{
+        padding: 50px;
+        h4{
+            color: rgb(201, 178, 52);
+            font-size: 40px;
+            font-weight: 600;
+            text-shadow: 1px 3px  rgba(0,0,0,9);
+        }
+    } 
+    #search{
+        outline: 0;
+        border: 0; 
+        background: transparent;
+        border-bottom: 2px solid rgb(201, 178, 52);
+        text-align: center;
+        width: 20%;
+        color: rgb(201, 178, 52);
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    
+}
+.content{
+    .city{
+        color: $renk;
+        font-size: 25px;
+        padding-top: 20px;
+        text-transform: uppercase;
+    }
+    .temp{
+        color: $renk;
+        font-size: 55px;
+        font-weight: 800;
+        padding-top: 20px;
+    }
+    .desc{
+        color: $renk;
+        font-size: 25px;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+    .minmax{
+        color:$renk;
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+.yagmur{
+    background-image: url(img/kapali.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kapali{
+    background-image: url(img/k.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.acik{
+    background-image: url(img/acik.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

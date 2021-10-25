@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(img/hava-durumu-bg.png);
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main .header {
+  padding: 50px;
+}
+
+.main .header h4 {
+  color: #c9b234;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 1px 3px black;
+}
+
+.main #search {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  border-bottom: 2px solid #c9b234;
+  text-align: center;
+  width: 20%;
+  color: #c9b234;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.content .city {
+  color: #ffff;
+  font-size: 25px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.content .temp {
+  color: #ffff;
+  font-size: 55px;
+  font-weight: 800;
+  padding-top: 20px;
+}
+
+.content .desc {
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.content .minmax {
+  color: #ffff;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.yagmur {
+  background-image: url(img/kapali.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kapali {
+  background-image: url(img/k.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acik {
+  background-image: url(img/acik.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
